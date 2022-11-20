@@ -1,0 +1,28 @@
+input{
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+.loginbtn{
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+    background-color: wheat;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    box-shadow: 0px 1px 1px #00000070;
+}
+.loginbtn:hover{
+    cursor:pointer;
+    box-shadow: 0px 1px 3px #00000070;
+}
+
+.error{
+    color: red;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+

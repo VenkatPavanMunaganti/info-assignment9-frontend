@@ -1,0 +1,45 @@
+nav {
+    background-color: wheat;
+    color: black;
+    width: 60%;
+    padding: 20px;
+    margin: 10px auto;
+    border-radius: 10px;
+    box-shadow: 0px 1px 2px #00000070;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+a {
+    padding: 5px;
+    margin: 5px;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.selected {
+    background-color: #d59111;
+    font-weight: bold;
+    color: white;
+    box-shadow: 0px 1px 2px #00000070;
+}
+
+.logoutBtn {
+    position: absolute;
+    right: 0;
+    padding: 10px;
+    background-color: #d59111;
+    color: white;
+    font-weight: bold;
+    border: none;
+    margin: 0 30px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 2px #00000070;
+}
+
+.logoutBtn:hover {
+    cursor: pointer;
+    box-shadow: 0px 1px 2px #00000070;
+}

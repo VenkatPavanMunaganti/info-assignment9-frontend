@@ -1,0 +1,36 @@
+.card {
+    background-color: beige;
+    color: black;
+    width: 60%;
+    margin: 0 auto;
+    border-radius: 10px;
+    height: 500px;
+    box-shadow: 0px 1px 2px #00000070;
+}
+
+.title {
+    background-color: wheat;
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+    color: #404040;
+}
+
+.card p {
+    font-size: larger;
+    width: 50%;
+    padding: 30px;
+    text-align: justify;
+}
+
+.content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 90%;
+}
+
+.content img {
+    width: 300px;
+    height: 400px;
+}
